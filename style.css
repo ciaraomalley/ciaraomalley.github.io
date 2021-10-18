@@ -1,6 +1,7 @@
 p{
     color:black;
     font-family:Calibri, sans-serif;
+    font-size:14px;
     padding:5px;
 }
 h1{
@@ -12,28 +13,43 @@ h1{
 h2{
     color:#ed9a95;
     font-family:Calibri, sans-serif;
-    margin: 7px;
+    font-size:large;
+    margin: 2px;
     padding: 2px;
 }
 h3{
     color:#ed9a95;
+    font-size: medium;
     margin: 2px;
     padding: 2px;
 }
 body{
     background: #f4f1eb;
     text-align: center;
-      }
+    }
 
 html {    
         background: url('websiteheader.png') no-repeat center fixed;     
         background-size: cover;
     }
 
-@media(min-width:468px){
+.container{
+  justify-content: center;
+}
+
+.row{
+      margin-top:10px;
+      min-height:10px;
+      justify-content: space-between;  
+      justify-content: center;
+}
+
+
+
+/*@media(min-width:468px){
 .container-1{
           display:flex;
-          background-color:#5099ac; 
+          background-color:#ed9a95; 
           border:3px #ed9a95 solid;
           justify-content:center;
           margin: 10px;
@@ -56,25 +72,22 @@ html {
             order: 3;
             padding: 10px;
             font-family:Calibri, sans-serif;
-          }
-.row{
-  margin-top:100px;
-  min-height:100px;
-  justify-content: space-between;
-}
+          } */
+
 
 @media only screen and (max-width: 768px) {
 /* For mobile phones: */
-    class*="container-1"] {
+    class:"container-1"] {
         width: 100%;
     }
 
+/*
 li {
     text-align: left;
     color:black;
      }
 }
-/*.section {
+.section {
     display: flex;
     flex-wrap: wrap;
     background-color: blanchedalmond; 
