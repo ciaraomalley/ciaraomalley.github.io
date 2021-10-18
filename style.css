@@ -4,24 +4,24 @@ p{
     padding:5px;
 }
 h1{
-    color:#215c7c;
+    color:#ed9a95;
     font-family:Calibri, sans-serif;
     margin: 2px;
     padding: 2px;
 }
 h2{
-    color:#215c7c;
+    color:#ed9a95;
     font-family:Calibri, sans-serif;
     margin: 7px;
     padding: 2px;
 }
 h3{
-    color:#215c7c;
+    color:#ed9a95;
     margin: 2px;
     padding: 2px;
 }
 body{
-    background: #b0e0eb;
+    background: #f4f1eb;
     text-align: center;
       }
 
@@ -29,7 +29,7 @@ body{
 .container-1{
           display:flex;
           background-color:#5099ac; 
-          border:3px #215c7c solid;
+          border:3px #ed9a95 solid;
           justify-content:center;
           margin: 10px;
           padding: 10px;
