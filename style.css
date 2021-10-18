@@ -25,6 +25,11 @@ body{
     text-align: center;
       }
 
+html {    
+        background: url('websiteheader.png') no-repeat center fixed;     
+        background-size: cover;
+    }
+
 @media(min-width:468px){
 .container-1{
           display:flex;
