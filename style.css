@@ -52,6 +52,11 @@ body{
             padding: 10px;
             font-family:Calibri, sans-serif;
           }
+.row{
+  margin-top:100px;
+  min-height:100px;
+  justify-content: space-between;
+}
 
 @media only screen and (max-width: 768px) {
 /* For mobile phones: */
